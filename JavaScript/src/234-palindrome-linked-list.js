@@ -19,9 +19,24 @@ function isPalindrome(head) {
     size += 1;
   }
 
-  if (size <= 2) return false;
-  console.log(size);
+  if (size === 1) return true;
+  const mid = Math.floor(size / 2);
+  let pointer = 0;
   current = head;
+
+  while (current) {
+    if (pointer < mid) {
+      set.push(current.val);
+    } else if ((size % 2 === 0 && pointer >= mid) || pointer > mid) {
+      const popped = set.pop();
+      if (current.val !== popped) return false;
+    }
+
+    current = current.next;
+    pointer += 1;
+  }
+
+  return set.length === 0;
 }
 
 export { ListNode, isPalindrome };
