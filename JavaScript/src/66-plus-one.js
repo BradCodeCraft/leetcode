@@ -1,6 +1,6 @@
 /**
  * @param {number[]} digits
- * @return {number[]}
+ * @returns {number[]}
  */
 function plusOne(digits) {
   let newLastDigit = digits[digits.length - 1] + 1;
