@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: dev.valid_sudoku.SolutionTest
+Test set: dev.reverse_string.SolutionTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in dev.valid_sudoku.SolutionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in dev.reverse_string.SolutionTest
