@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: dev.design_hashset.MyHashSetTest
+Test set: dev.foursum_ii.SolutionTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in dev.design_hashset.MyHashSetTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in dev.foursum_ii.SolutionTest
