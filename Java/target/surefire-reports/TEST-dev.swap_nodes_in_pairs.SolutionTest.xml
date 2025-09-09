@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="dev.single_number.SolutionTest" time="0.01" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="dev.swap_nodes_in_pairs.SolutionTest" time="0.028" tests="4" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -53,7 +53,47 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="CaseOne" classname="dev.single_number.SolutionTest" time="0.004"/>
-  <testcase name="CaseTwo" classname="dev.single_number.SolutionTest" time="0.001"/>
-  <testcase name="CaseThree" classname="dev.single_number.SolutionTest" time="0.001"/>
+  <testcase name="CaseOne" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.014">
+    <failure message="expected: &lt;dev.swap_nodes_in_pairs.ListNode@1aa7ecca&gt; but was: &lt;dev.swap_nodes_in_pairs.ListNode@59309333&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <dev.swap_nodes_in_pairs.ListNode@1aa7ecca> but was: <dev.swap_nodes_in_pairs.ListNode@59309333>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at dev.swap_nodes_in_pairs.SolutionTest.CaseOne(SolutionTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+  </testcase>
+  <testcase name="CaseTwo" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.002"/>
+  <testcase name="CaseThree" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.003">
+    <failure message="expected: &lt;dev.swap_nodes_in_pairs.ListNode@5c33f1a9&gt; but was: &lt;dev.swap_nodes_in_pairs.ListNode@1623b78d&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <dev.swap_nodes_in_pairs.ListNode@5c33f1a9> but was: <dev.swap_nodes_in_pairs.ListNode@1623b78d>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at dev.swap_nodes_in_pairs.SolutionTest.CaseThree(SolutionTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+  </testcase>
+  <testcase name="CaseFour" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.002">
+    <failure message="expected: &lt;dev.swap_nodes_in_pairs.ListNode@6adbc9d&gt; but was: &lt;dev.swap_nodes_in_pairs.ListNode@4550bb58&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <dev.swap_nodes_in_pairs.ListNode@6adbc9d> but was: <dev.swap_nodes_in_pairs.ListNode@4550bb58>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at dev.swap_nodes_in_pairs.SolutionTest.CaseFour(SolutionTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+  </testcase>
 </testsuite>
