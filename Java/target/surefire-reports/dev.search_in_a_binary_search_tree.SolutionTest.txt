@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: dev.search_in_a_binary_search_tree.SolutionTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 s -- in dev.search_in_a_binary_search_tree.SolutionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 s -- in dev.search_in_a_binary_search_tree.SolutionTest
