@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="dev.swap_nodes_in_pairs.SolutionTest" time="0.001" tests="4" errors="0" skipped="4" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="dev.merge_two_sorted_lists.SolutionTest" time="0.003" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -53,16 +53,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="CaseOne" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.0">
-    <skipped message="void dev.swap_nodes_in_pairs.SolutionTest.CaseOne() is @Disabled"/>
-  </testcase>
-  <testcase name="CaseTwo" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.0">
-    <skipped message="void dev.swap_nodes_in_pairs.SolutionTest.CaseTwo() is @Disabled"/>
-  </testcase>
-  <testcase name="CaseThree" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.0">
-    <skipped message="void dev.swap_nodes_in_pairs.SolutionTest.CaseThree() is @Disabled"/>
-  </testcase>
-  <testcase name="CaseFour" classname="dev.swap_nodes_in_pairs.SolutionTest" time="0.0">
-    <skipped message="void dev.swap_nodes_in_pairs.SolutionTest.CaseFour() is @Disabled"/>
-  </testcase>
+  <testcase name="CaseOne" classname="dev.merge_two_sorted_lists.SolutionTest" time="0.002"/>
+  <testcase name="CaseTwo" classname="dev.merge_two_sorted_lists.SolutionTest" time="0.001"/>
+  <testcase name="CaseThree" classname="dev.merge_two_sorted_lists.SolutionTest" time="0.0"/>
 </testsuite>
