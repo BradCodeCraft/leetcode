@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="dev.insert_delete_getrandom_o1.RandomizedSetTest" time="0.007" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="dev.unique_binary_search_trees.SolutionTest" time="0.01" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -53,5 +53,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="CaseOne" classname="dev.insert_delete_getrandom_o1.RandomizedSetTest" time="0.004"/>
+  <testcase name="CaseOne" classname="dev.unique_binary_search_trees.SolutionTest" time="0.002"/>
+  <testcase name="CaseTwo" classname="dev.unique_binary_search_trees.SolutionTest" time="0.001"/>
+  <testcase name="CaseThree" classname="dev.unique_binary_search_trees.SolutionTest" time="0.001"/>
+  <testcase name="CaseFour" classname="dev.unique_binary_search_trees.SolutionTest" time="0.001"/>
 </testsuite>
