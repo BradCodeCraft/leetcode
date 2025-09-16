@@ -34,22 +34,22 @@ function buildTreeHelper(
   if (inorderStart > inorderEnd || postorderStart > postorderEnd) return null;
 
   const rootVal = postorder[postorderEnd];
-  const rootIndex = inorder.indexOf(rootVal);
-  const leftSize = rootIndex - inorderStart;
-  const rightSize = inorderEnd - rootIndex;
+  const rootInorderIndex = inorder.indexOf(rootVal);
+  const leftSize = rootInorderIndex - inorderStart;
+  const rightSize = inorderEnd - rootInorderIndex;
 
   let root = new TreeNode(rootVal);
   root.left = buildTreeHelper(
     inorder,
     inorderStart,
-    rootIndex - 1,
+    rootInorderIndex - 1,
     postorder,
     postorderStart,
     postorderStart + leftSize - 1,
   );
   root.right = buildTreeHelper(
     inorder,
-    rootIndex + 1,
+    rootInorderIndex + 1,
     inorderEnd,
     postorder,
     postorderEnd - rightSize,
